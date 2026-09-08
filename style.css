@@ -1,0 +1,71 @@
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f0fa;
+}
+
+header {
+    background-color: #1a365d; /* Azul escuro principal */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 16px;
+    border-bottom: 4px solid #6b46c1; /* Roxo como cor secundária */
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #1a365d;
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+
+    border: 2px solid #6b46c1; /* Borda roxa secundária */
+    border-radius: 8px;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 280px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #6b46c1; /* Cor roxa no autor */
+}
+
+button {
+    background-color: #f0e7ff;
+    border: 1px solid #6b46c1;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #d6bcfa;
+}
